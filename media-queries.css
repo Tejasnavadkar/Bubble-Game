@@ -1,0 +1,175 @@
+@media screen and (max-width:1230px){
+
+    #panel{
+        height: 90%;
+        width: 90%;
+        border-radius: 10px;
+        background-color: #fff;
+        overflow: scroll;
+    }
+
+    #main{
+        height: 100%;
+        width: 100%;
+        background-color: rgb(155, 184, 155);
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+         justify-content: center;
+        align-items: center; 
+    }
+
+    #ptop{
+        width: 90%;
+
+    }
+
+    #pbtm{
+        padding: 35px;
+    }
+
+}
+
+
+@media  screen and (max-width:730px) {
+
+    #ptop{
+        width: 90%;
+        height: 80px;
+        background-color: rgb(72, 104, 72);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;     
+        padding: 0 5%;  
+        gap: 5px;                        
+    }
+
+    #pbtm{
+        padding: 35px;
+    }
+    
+}
+
+@media  screen and (max-width:800px){
+
+    #pbtm{
+        padding: 35px;
+    }
+    
+}
+
+@media  screen and (max-width:980px){
+    #ptop{
+    padding: 0 25%;
+    }
+}
+
+@media  screen and (max-width:360px) {
+
+    #ptop{
+        width: 90%;
+        height: 80px;
+        background-color: rgb(72, 104, 72);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;      /*for distance*/
+        padding: 0 5%;                      /* to maintain gap beetn elem tab wo isme hi rahege 11.07 yt */
+        overflow: hidden;
+    }
+
+    #heading{
+
+        font-size: 2rem;
+    }
+
+    #ptop h3{
+        font-size:1rem ;
+    }
+
+
+    
+}
+
+@media  screen and (max-width:320px){
+
+    #heading{
+
+        font-size: 1.5rem;
+    }
+
+}
+
+@media  screen and (max-width:300px){
+    #ptop{
+        padding: 0 3%; 
+
+    }
+
+
+}
+
+@media  screen and (max-width:460px){
+    #ptop{
+        padding: 0 9%;
+    
+    }
+}
+
+@media  screen and (max-width:560px){
+    #ptop{
+        padding:0 15% ;
+        
+    }
+
+    #ptop h3{
+        font-size:1rem ;
+    }
+
+}
+
+@media  screen and (max-width:509px){
+
+    #ptop{
+        padding:0 30% ;
+        
+    }
+
+
+}
+
+
+
+@media  screen and (min-width:1720px){
+
+    #pbtm{
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        
+        height: calc(100% - 80px); /* we can't minus px from % so thats why we use calc function*/
+        flex-wrap: wrap; /* to get element new line*/
+    }
+
+}
+
+@media  screen and (max-width:1440px){
+
+    #ptop{
+        padding: 0 10%;
+    }
+  
+}
+
+@media  screen and (max-width:347px){
+    #ptop h3{
+        font-size:0.8rem ;
+    }
+
+}
+
+
+
+
